@@ -1,0 +1,9 @@
+.container-lg{
+  
+    padding-top: 90px;
+    table-layout: fixed;
+    font-size: medium;
+   border: 5px; 
+   margin-left: 10px;
+ }
+ 
