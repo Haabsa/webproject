@@ -1,1 +1,53 @@
+/* /* .container3 {
+    width: 500px;
+    height: 800px;
+    background-color: rgb(23, 154, 175);
+    
 
+  }
+  label {
+    display: block;
+    color: black;
+    font-weight: bold;
+  }
+
+  
+  .btn2{
+    width: 40px;
+     height:60px; 
+    align-items: center;
+  }  */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 3px;
+  }

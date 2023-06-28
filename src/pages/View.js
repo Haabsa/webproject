@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from '../component/NavBar';
+import Footer from '../component/Footer';
+import Dashboard from '../component/Dashboard';
 class View extends Component {
     render() {
         return (
-            <div>
+            <div><NavBar/><Dashboard/>
                  <div>
-        
-            <br></br>
-            <div className="card col-md-6 offset-md-3">
+            <div className="card col-md-8 offset-md-3">
                 <h3 className="text-center"> View Subject Details</h3>
-                <div className="card-body">
+                
                     <div className="row">
                         <label> TeacherID: </label>
                         {/* <div> {this.state.user.firstName}</div> */}
@@ -37,9 +38,9 @@ class View extends Component {
                         
                     </div>
                 </div>
-            </div>
+            </div><Footer/>
         </div>
-            </div>
+           
         );
     }
 }

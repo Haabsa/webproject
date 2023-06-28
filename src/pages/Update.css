@@ -1,0 +1,42 @@
+/* label,input{
+    font-family: 'Times New Roman'; */
+    /* margin-left: 50px; */
+    
+
+
+/* } */
+
+
+.container1 {
+    width: 600px;
+    height: 750px;
+    background-color: rgb(31, 102, 112);  
+  
+    
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: black;
+  }
+  
+ input{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+ }
+ 
+ .h3{
+    align-items: center;
+    
+    
+}
+.btn1{
+    width: 90px;
+    /* height:60px; */
+    align-items: center;
+}
+
+
+

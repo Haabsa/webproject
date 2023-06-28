@@ -1,9 +1,60 @@
 .container-lg{
   
-    padding-top: 90px;
-    table-layout: fixed;
-    font-size: medium;
+    padding-top: 50px;
+    /* table-layout: fixed; */
+    font-size: smaller;
    border: 5px; 
-   margin-left: 10px;
+   margin-left: 300px;
+   left: 0;  
+   right: 0;
+   top: 0;
+   bottom: 0;
+   /* height: fit-content; */
+   display: inline;
+   position: fixed;
+   align-items: center;
+   font-family: sans-serif;
+   /* background-size: cover; */
+   text-decoration: none;
+   text-align: center;
+  
+   
+   
+  
+   
  }
+
+ .table-wrapper{
+  margin-right: 300px;
+ }
+
+
+ .btn5{
+  /* width: 25px; */
+  /* height:20px; */
+  align-items: center;
+  width: 30%;
+  padding: 5px;
+  background: rgb(6, 100, 150);
+  color: white;
+  border: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.btn6{
+  
+  margin-left: 870px;
+  width: 19%;
+  padding: 4px;
+  background: rgb(7, 121, 186);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.btn6:hover {
+  background: #c30c0c;
+}
  
